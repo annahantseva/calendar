@@ -4,57 +4,76 @@
 <head>
     <meta charset="utf-8">
     <title>Calendar</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Roboto');
-    </style>
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
+<div class="wrapper">
     <div class="calendar calendar-light">
         <h1>Welcome Back</h1>
-        <p class="plan"><b>Calendar Plan</b></p>
+        <p class="shadow-light"><b>Calendar Plan</b></p>
         <div class="date">
             <p>Today</p>
             <p>22nd April 2018</p>
+            <div class="circle">
+                <img src='images/icon.png'>
+            </div>
         </div>
-        <div class="lighttext">
-            <ul>
-                <p>Upcoming Events</p>
-                <li><span class="highlighted">10:30 am</span>
-                    <dt>Monday briefing with the team</dt></li>
-                <li><span>12:00 pm</span>
-                    <dt>Lunch for with the besties</dt></li>
-                <li><span>13:00 pm</span>
-                    <dt>Meet with a client for final design @foofinder</dt></li>
-                <li><span>14:30 pm</span>
-                    <dt>Plan event night to inspire students</dt></li>
-                <li><span>15:00 pm</span>
-                    <dt>Add some more events to the calendar</dt></li>
-            </ul>
-        </div>
-    </div>
+            <ul class="event event-light">
+                <p class="light">Upcoming Events</p>
+                <li class="highlighted">
+                        <p class="time">10:30 am</p>
+                        <p class="event-description">Monday briefing with the team</p>
+                   </li> 
+                    <li>
+                        <p class="time">12:00 pm</p>
+                        <p class="event-description">Lunch for with the besties</p>
+                    </li>
+                    <li>
+                        <p class="time">13:00 pm</p>
+                        <p class="event-description">Meet with a client for final design @foofinder</p>
+                    </li>
+                    <li>
+                        <p class="time">14:30 pm</p>
+                        <p class="event-description">Plan event night to inspire students</p>
+                    </li>
+                    <li>
+                        <p class="time">15:00 pm</p>
+                        <p class="event-description">Add some more events to the calendar</p>
+                    </li>
+                </div>
     <!--- dark calendar -->
     <div class="calendar calendar-dark">
         <h1>Welcome Back</h1>
-        <p class="plan"><b>Calendar Plan</b></p>
+        <p class="shadow-dark"><b>Calendar Plan</b></p>
         <div class="date">
             <p>Today</p>
             <p>22nd April 2018</p>
+            <div class="circle">
+                <img src='images/icon.png'>
+            </div>
         </div>
-        <div class="darktext">
-            <ul>
-                <p><span>Upcoming Events</span></p>
-                <li><span class="highlighted">10:30 am</span>
-                    <dt>Monday briefing with the team</dt></li>
-                <li><span>12:00 pm</span>
-                    <dt>Lunch for with the besties</dt></li>
-                <li><span>13:00 pm</span>
-                    <dt>Meet with a client for final design @foofinder</dt></li>
-                <li><span>14:30 pm</span>
-                    <dt>Plan event night to inspire students</dt></li>
-                <li><span>15:00 pm</span>
-                    <dt>Add some more events to the calendar</dt></li>
+                <ul class="event event-dark">
+                        <p class="dark">Upcoming Events</p>
+                        <li class="highlighted">
+                                <p class="time">10:30 am</p>
+                            <p class="event-description">Monday briefing with the team</p>
+                        </li>
+                            <li>
+                                <p class="time">12:00 pm</p>
+                                <p class="event-description">Lunch for with the besties</p>
+                            </li>
+                            <li>
+                                <p class="time">13:00 pm</p>
+                                <p class="event-description">Meet with a client for final design @foofinder</p>
+                            </li>
+                            <li>
+                                <p class="time">14:30 pm</p>
+                                <p class="event-description">Plan event night to inspire students</p>
+                            </li>
+                            <li>
+                                <p class="time">15:00 pm</p>
+                                <p class="event-description">Add some more events to the calendar</p></li>
             </ul>
         </div>
     </div>
